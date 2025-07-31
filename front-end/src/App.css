@@ -1,0 +1,362 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+  list-style: none;
+}
+.nav-ul li a {
+  color: #fff;
+  padding: 30px;
+  text-decoration: none;
+}
+.nav-right{
+  text-align: right;
+}
+.Footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  height: 60px;
+}
+
+.register {
+  margin: 40px auto;            
+  padding: 30px;                  
+  width: 369px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.login{
+   margin: 40px auto;              
+  padding: 30px;                 
+  width: 369px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.product{
+   margin: 40px auto;             
+  padding: 5px;                  
+  width: 369px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.inputbox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.appButton {
+  margin: 20px;
+  margin-left: 33%;
+  padding: 10px;
+  width: 130px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+.register-h1 {
+  margin-left: 114px;
+}
+.flotter-h3{
+  margin-top: 15px;
+}
+.h2 {
+  margin-left: 135px;
+}
+.h3 {
+  margin-left: 85px;
+}
+.h5{
+  margin: 16px;
+  margin-left: 420px;
+}
+h1{
+  margin: 0px;
+}
+.logo{
+  width: 40px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.invalid-input {
+    color: red;
+    margin-top: -28px;
+    margin-left: 26px;
+    margin-bottom: -12px;
+    font-size: 12px;
+    display: block;
+}
+
+.product-list {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto 100px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.product-list ul:first-child {
+  background-color: skyblue;
+  font-weight: bold;
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+}
+
+.product-list ul {
+  display: flex;
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid skyblue;
+}
+
+.product-list ul li {
+  flex: 1;
+  text-align: center;
+  list-style: none;
+  padding: 8px 5px;
+  font-size: 16px;
+  border-right: 1px solid skyblue;
+  font-weight: bold;
+}
+
+.product-list ul li:last-child {
+  border-right: none;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.delete-btn,
+.update-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.update-btn {
+  background-color: #2196f3;
+}
+
+.update-btn:hover {
+  background-color: #1976d2;
+}
+
+.search-box {
+  display: block;
+  margin: 20px auto 30px;
+  padding: 10px 15px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+.search-data{
+  margin-left: 390px;
+  color: red;
+  font-size: 20px;
+}
+
+
+.logout-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout-card {
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.logout-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.logout-card p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.redirect-msg {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+.loader {
+  margin: 20px auto 0;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.logout-btn{
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.edit-button{
+  margin: 10px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 81vh;
+  background: linear-gradient(to right, #b9d9ee, #fce4ec);
+}
+
+
+.profile-card {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+}
+
+.profile-card h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+.profile-card label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.profile-card input {
+  width: 350px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.profile-card input:focus {
+  border-color: #2196f3;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.profile-card strong {
+  color: #333;
+}
+
+.profile-card button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:nth-child(3) {
+  background-color: #2196f3;
+  color: white;
+}
+
+.profile-card button:nth-child(3):hover {
+  background-color: #1976d2;
+}
+
+.profile-card button:nth-child(4) {
+  background-color: #f44336;
+  color: white;
+}
+
+.profile-card button:nth-child(4):hover {
+  background-color: #d32f2f;
+}
+
+.profile-card button:last-child {
+  background-color: #4caf50;
+  color: white;
+  margin-top: 15px;
+}
+
+.profile-card button:last-child:hover {
+  background-color: #388e3c;
+}
